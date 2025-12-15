@@ -1,41 +1,57 @@
-# Material UI - Vite example in TypeScript
+# Índice
 
-## How to use
+* [Instalação](#-instalação)
+* [Descrição](#descrição)
+* [Funcionalidades](#funcionalidades)
+* [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+* [Autor](#autor)
+# MVP-Arquitetura-de-Software
 
-Download the example [or clone the repo](https://github.com/mui/material-ui):
+# 🎲 Instalação
 
-<!-- #target-branch-reference -->
-
-```bash
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/material-ui-vite-ts
-cd material-ui-vite-ts
+Clonar o repositório do frontend e do backend na mesma pasta do computador utilizando
+```
+mkdir "meu-projeto"
+cd meu-projeto
+git clone https://github.com/MatheusPiaia/MVP-arq-software-frontend.git frontend
+git clone https://github.com/MatheusPiaia/MVP-arq-software-backend.git backend
+```
+```
+cd frontend
+docker compose up --build
 ```
 
-Install it and run:
+Abra o http://localhost:5173 no navegador para acessar a homepage da aplicação. 
+Abra o http://localhost:5000 no navegador para verificar a documentação da API em execução
 
-```bash
-npm install
-npm run dev
-```
+# Descrição
+Aplicação desenvolvida como MVP para a Sprint: 
 
-or:
+E para avaliação foi utilizado o parâmetro de Acurácia, aonde o Random Forest (RF) se mostrou melhor, com 93,92% de acurácia.
+O dataset utilizado foi retirado do site [Kagle](https://www.kagle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data)
 
-<!-- #target-branch-reference -->
+# Funcionalidades
+- [x] Cadastro de Usuário
+- [x] Predição da personalidade (Introvertido/Extrovertido)
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/mui/material-ui/tree/master/examples/material-ui-vite-ts)
+Após a Execução da API é possível acessar a documentação via Swagger e verificar/testar todas as funcionalidades da aplicação.
+Abaixo segue todas as rotas da API
+![rotas api](https://github.com/user-attachments/assets/f75eccdd-10c3-4d5f-991d-3cb3e9841f29)
 
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/material-ui-vite-ts)
 
-## The idea behind the example
 
-<!-- #host-reference -->
+# 🛠 Tecnologias utilizadas
+- [Python](https://www.python.org/)
+- [Flask](https://flask.palletsprojects.com/en/stable/)
+- [Pydantic](https://docs.pydantic.dev/latest/)
+- [OpenAPI3](https://swagger.io/solutions/getting-started-with-oas/)
 
-This example demonstrates how you can use Material UI with [Vite](https://vite.dev) in [TypeScript](https://github.com/Microsoft/TypeScript).
-It includes `@mui/material` and its peer dependencies, including [Emotion](https://emotion.sh/docs/introduction), the default style engine in Material UI.
+# Autor
+---
 
-## What's next?
+<a href="https://github.com/MatheusPiaia">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/185968337?s=400&u=b4f54f3c5ea4b83b959d508547adf7077fd2caf8&v=4" width="100px;" alt=""/>
+ <br/></a> 
 
-<!-- #host-reference -->
-
-You now have a working example project.
-You can head back to the documentation and continue by browsing the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+ [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/MatheusPiaia)
+ [![LinkedIn](https://img.shields.io/badge/LinkedIn-Matheus-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/matheus-piaia-231647144)
