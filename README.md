@@ -32,12 +32,15 @@ Esse comando irá:
 - Subir o FrontEnd
 
 Abra o http://localhost:5173 no navegador para acessar a homepage da aplicação. 
+
 Abra o http://localhost:5000 no navegador para verificar a documentação da API em execução
 
 
 # Descrição
 Aplicação frontend desenvolvida em React + Typescript como MVP para a Sprint de Arquitetura de Software.
+
 Aplicação possui o objetivo de facilitar controle de estoque e de condicionais de uma loja de roupas online.
+
 Abaixo segue arquitetura utilizada:
 ![arquitetura]
 
