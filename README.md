@@ -42,7 +42,8 @@ Aplicação frontend desenvolvida em React + Typescript como MVP para a Sprint d
 Aplicação possui o objetivo de facilitar controle de estoque e de condicionais de uma loja de roupas online.
 
 Abaixo segue arquitetura utilizada:
-![arquitetura]
+![arquitetura](https://github.com/user-attachments/assets/ff57b81d-75aa-4e95-8acb-358a5b94237a)
+
 
 Foi utilizada a API externa da FakeStore para obter os produtos de exemplo da loja online
 
