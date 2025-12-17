@@ -3,6 +3,7 @@
 * [Instalação](#-instalação)
 * [Descrição](#descrição)
 * [Funcionalidades](#funcionalidades)
+* [Acessos](#-acessos)
 * [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 * [Autor](#autor)
 # MVP-Arquitetura-de-Software
@@ -16,35 +17,71 @@ cd meu-projeto
 git clone https://github.com/MatheusPiaia/MVP-arq-software-frontend.git frontend
 git clone https://github.com/MatheusPiaia/MVP-arq-software-backend.git backend
 ```
+Garantir que o projeto fique no padrão:
+```
+meu-projeto/
+├── backend/
+└── frontend/
+```
+Acessar então a pasta frontend e executar:
 ```
 cd frontend
 docker compose up --build
 ```
+Esse comando irá:
+- Subir o FrontEnd
 
 Abra o http://localhost:5173 no navegador para acessar a homepage da aplicação. 
 Abra o http://localhost:5000 no navegador para verificar a documentação da API em execução
 
-# Descrição
-Aplicação desenvolvida como MVP para a Sprint: 
 
-E para avaliação foi utilizado o parâmetro de Acurácia, aonde o Random Forest (RF) se mostrou melhor, com 93,92% de acurácia.
-O dataset utilizado foi retirado do site [Kagle](https://www.kagle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data)
+# Descrição
+Aplicação frontend desenvolvida em React + Typescript como MVP para a Sprint de Arquitetura de Software.
+Aplicação possui o objetivo de facilitar controle de estoque e de condicionais de uma loja de roupas online.
+Abaixo segue arquitetura utilizada:
+![arquitetura]
+
+Foi utilizada a API externa da FakeStore para obter os produtos de exemplo da loja online
+
+# 🌐 Acessos
+-Frontend:
+http://localhost:5173
+
+-Backend (API):
+http://localhost:5000
+
+-Swagger:
+http://localhost:5000/swagger
+
+-PgAdmin:
+http://localhost:5050
 
 # Funcionalidades
-- [x] Cadastro de Usuário
-- [x] Predição da personalidade (Introvertido/Extrovertido)
+- [x] Cadastro de Clientes
+- [x] Importação dos produtos pela FakeStore
+- [x] Módulo de controle de estoque
+- [x] Cadastro de condicionais
+- [x] Adição de itens aos condicionais
+- [x] Retorno dos condicionais, informando produtos devolvidos e comprados
+- [x] Lógica controle de estoque para atualização em tempo real
+- [x] Filtros dinâmicos
+- [x] UI Mobile e Desktop
+- [ ] Adição manual de novos produtos
+- [ ] Autenticação
 
-Após a Execução da API é possível acessar a documentação via Swagger e verificar/testar todas as funcionalidades da aplicação.
-Abaixo segue todas as rotas da API
+Após a Execução do frontend é possível acessar a homepage da aplicação e verificar/testar todas as funcionalidades.
+Abaixo segue telas da aplicação
 ![rotas api](https://github.com/user-attachments/assets/f75eccdd-10c3-4d5f-991d-3cb3e9841f29)
 
 
 
 # 🛠 Tecnologias utilizadas
-- [Python](https://www.python.org/)
-- [Flask](https://flask.palletsprojects.com/en/stable/)
-- [Pydantic](https://docs.pydantic.dev/latest/)
-- [OpenAPI3](https://swagger.io/solutions/getting-started-with-oas/)
+- [React](https://react.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vite](https://vite.dev/)
+- [Material UI (MUI)](https://mui.com/material-ui/)
+- [Docker](https://www.docker.com/)
+
 
 # Autor
 ---
