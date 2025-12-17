@@ -29,6 +29,10 @@ cd frontend
 docker compose up --build
 ```
 Esse comando irá:
+- Criar o banco PostgreSQL
+- Executar as migrations
+- Executar o seed inicial (roles + usuário admin)
+- Subir a API Flask
 - Subir o FrontEnd
 
 Abra o http://localhost:5173 no navegador para acessar a homepage da aplicação. 
