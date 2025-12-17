@@ -80,13 +80,13 @@ http://localhost:5050
 
 Após a Execução do frontend é possível acessar a homepage da aplicação e verificar/testar todas as funcionalidades.
 Abaixo segue telas da aplicação
-![home]<img width="1903" height="942" alt="image" src="https://github.com/user-attachments/assets/b3f8153e-ca4f-4347-b2dd-b584a8a89b06" />
-![clientes]<img width="1917" height="941" alt="image" src="https://github.com/user-attachments/assets/10cd485c-3cbd-452e-ab83-76cacc1f4e95" />
-![estoque]<img width="1900" height="941" alt="image" src="https://github.com/user-attachments/assets/dbb1211a-642b-4aea-b641-160a2ca128df" />
-![condicionais]<img width="1917" height="940" alt="image" src="https://github.com/user-attachments/assets/a36d0d9e-5720-40ef-b6ff-795176146cc7" />
-![condicionais]<img width="1909" height="947" alt="image" src="https://github.com/user-attachments/assets/3e425206-3571-4ada-8ff4-80e87c220932" />
-![condicionais]<img width="1917" height="944" alt="image" src="https://github.com/user-attachments/assets/1be679a3-a4e9-426f-bf7c-86ddd844bdae" />
-![condicionais]<img width="1917" height="940" alt="image" src="https://github.com/user-attachments/assets/5e68f2ff-cc40-400d-9ee3-dd5ddcbbdfbe" />
+<img width="1903" height="942" alt="image" src="https://github.com/user-attachments/assets/b3f8153e-ca4f-4347-b2dd-b584a8a89b06" />
+<img width="1917" height="941" alt="image" src="https://github.com/user-attachments/assets/10cd485c-3cbd-452e-ab83-76cacc1f4e95" />
+<img width="1900" height="941" alt="image" src="https://github.com/user-attachments/assets/dbb1211a-642b-4aea-b641-160a2ca128df" />
+<img width="1917" height="940" alt="image" src="https://github.com/user-attachments/assets/a36d0d9e-5720-40ef-b6ff-795176146cc7" />
+<img width="1909" height="947" alt="image" src="https://github.com/user-attachments/assets/3e425206-3571-4ada-8ff4-80e87c220932" />
+<img width="1917" height="944" alt="image" src="https://github.com/user-attachments/assets/1be679a3-a4e9-426f-bf7c-86ddd844bdae" />
+<img width="1917" height="940" alt="image" src="https://github.com/user-attachments/assets/5e68f2ff-cc40-400d-9ee3-dd5ddcbbdfbe" />
 
 
 
